@@ -2,6 +2,8 @@ module github.com/ignite/apps/wasm
 
 go 1.24.3
 
+replace nhooyr.io/websocket => github.com/coder/websocket v1.8.6
+
 require (
 	github.com/CosmWasm/wasmd v0.55.0
 	github.com/blang/semver/v4 v4.0.0
